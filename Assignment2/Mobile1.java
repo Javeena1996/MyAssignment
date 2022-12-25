@@ -3,6 +3,9 @@ package week1.day1;
 public class Mobile1 {
 	
 	public void makeCall() {
+		
+		System.out.println("Call 944516630");
+		
 		String mobileModel= "vivo";
 		float mobileWeight= 156.7f;
 		
@@ -13,6 +16,9 @@ public class Mobile1 {
 	
 	
 	public void sendMsg() {
+		
+		System.out.println("Have you received my call?");
+		
 		boolean fullyCharged= true;
 		int mobileCost = 24500;
 		
